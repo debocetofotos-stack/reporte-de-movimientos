@@ -9,7 +9,7 @@
   </style>
 </head>
 <body>
-  <header><h1>dE BoCETO · Finanzas diarias</h1><p>Registro de ingresos, gastos, pagos y transferencias.</p></header>
+  <header><h1>Finanzas diarias</h1><p>Registro de ingresos, gastos, pagos y transferencias.</p></header>
   <main>
     <p class="note">Formato limpio para iniciar octubre de 2026. Los datos se guardan únicamente en este navegador; descarga un CSV como respaldo al cerrar cada mes.</p>
     <div class="grid">
@@ -19,7 +19,7 @@
           <div class="two"><label>Fecha<input id="date" type="date" required></label><label>Tipo<select id="type"><option value="income">Ingreso / abono de cliente</option><option value="expense">Gasto / pago realizado</option><option value="transfer">Transferencia entre cuentas</option></select></label></div>
           <label id="categoryBox">Categoría<select id="category"></select></label>
           <label id="beneficiaryBox">Pagado a / destino<input id="beneficiary" placeholder="Proveedor, colaborador o persona a quien se le pagó"></label>
-          <label id="projectBox">Proyecto o cliente al que se aplica<input id="project" placeholder="Ej. 2026-343 Eduardo Cruz"></label>
+          <label id="projectBox">Proyecto o cliente al que se aplica<input id="project" placeholder="Ej. 2026-343 Edu Cruz"></label>
           <label>Qué se compró o motivo<input id="description" required placeholder="Ej. 2 tableros de melamina, gasolina o mano de obra"></label>
           <div id="accountBox" class="two"><label>Cuenta o tarjeta<select id="account"></select></label><label>Método de pago<select id="method"><option>Transferencia</option><option>Efectivo</option><option>Tarjeta</option><option>Cheque</option><option>Depósito</option><option>Otro</option></select></label></div>
           <div id="transferBox" class="two" hidden><label>Sale de<select id="fromAccount"></select></label><label>Entra a<select id="toAccount"></select></label></div>
