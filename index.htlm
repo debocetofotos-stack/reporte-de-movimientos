@@ -39,7 +39,7 @@
   </main>
   <script>
     const STORE='deboceto_finanzas_octubre_2026';
-    const accounts=['Espacios Kreativos','Evelin Monetaria','Tarjeta Evelin','Tarjeta Dony'];
+    const accounts=['Cuenta 1','Cuenta 2','Tarjeta 1','Tarjeta 2'];
     const categories={income:['Anticipo','Abono de cliente','Pago final','Otro ingreso'],expense:['Materiales','Herrajes','Mano de obra','Transporte','Instalación','Herramientas','Gastos administrativos','Otro gasto']};
     const $=id=>document.getElementById(id);
     const money=value=>new Intl.NumberFormat('es-GT',{style:'currency',currency:'GTQ'}).format(value);
